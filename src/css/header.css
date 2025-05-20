@@ -1,0 +1,17 @@
+.header{
+    width: 100vw;
+    min-height:10vmin;
+    display: flex;
+    background-color: rgba(0, 0, 0, .5);
+    justify-content: space-between;
+    align-items: center;
+}
+.App-logo{
+    width: 8vmin;
+    margin: 0 5em;
+}
+.header-options ul{
+    display: flex;
+    gap: 2em;
+    margin: 0 5em;
+}
