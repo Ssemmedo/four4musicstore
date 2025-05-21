@@ -1,0 +1,17 @@
+.home-initial{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../imgs/cesf-new.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-initial a{
+    position: absolute;
+    margin: 0 auto;
+    left: 43vw;
+    bottom: 5em;
+    text-transform: uppercase;
+    border: 2px #fff solid;
+    border-radius: 10px;
+    padding: .8em;
+}
