@@ -1,13 +1,15 @@
+import '../css/Card.css';
+
 function Card(props){
     return(
-        <div>
-            <div>
+        <div className="card">
+            <div className="card-image">
                 <img src= {props.img} alt={props.desc} />
             </div>
-            <div>
-                <p>{props.desc}</p>
-                <p>Preço:</p>
-                <p>{props.preco}</p>
+            <div className="card-details">
+                <p className="card-description">{props.desc}</p>
+                <p className="card-label">Preço:</p>
+                <p className="card-price">{props.preco}</p>
             </div>
         </div>
     )

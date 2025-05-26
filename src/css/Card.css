@@ -1,0 +1,42 @@
+.card{
+    margin: .6em 1em;
+    padding: .8em;
+    border: 2px white solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .8);
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(255, 255, 255, 0.8) 0 0 3em .1em;
+    transition: .5s;
+}
+.card-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-details{
+    color: white;
+    display: grid;
+    grid-template-areas: 
+    "card-description card-description";
+    grid-template-columns: 1fr 2fr;
+    gap: 0;
+}
+.card-details > p.card-description{
+    grid-area: card-description;
+}
+.card-description{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.card-label{
+    color: #9a9a9a;
+    align-self: center;
+}
+.card-price{
+    font-size: 2rem;
+    text-align: center;
+}
